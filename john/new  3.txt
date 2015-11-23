@@ -1,0 +1,22 @@
+<?php
+   $a=$_GET ["a"];
+   $b=$_GET ["b"];
+   
+   $c=0;
+   echo "<table>";
+   echo "<tr>";
+   for ($j=1; $j<=$a; $j++)
+   {
+      echo "</tr>"; 
+      echo "<td>";
+      for ($i=1; $i<=$b; $i++)
+	  {
+	    $c=$c+1
+	     echo "<td> $c </td>";
+		 echo "</td>";
+	    }
+	}
+	 
+	 echo "</table>";
+?>
+	 
